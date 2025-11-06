@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'src/**'
-
 env:
   AZURE_CONTAINER_REGISTRY: ${{ secrets.ACR_REGISTRY_NAME }}
   AZURE_APP_SERVICE_NAME: $hayydtnqa3kpq-app
